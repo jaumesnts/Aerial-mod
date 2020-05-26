@@ -1172,7 +1172,7 @@ input, select, textarea {
 		cursor: default;
 		display: inline-block;
 		opacity: 0;
-		bottom: 20%;
+		bottom: 15%;
 		height: 6em;
 		left: 0;
 		position: absolute;
@@ -1180,8 +1180,8 @@ input, select, textarea {
 		width: 100%;
 	}
 
-	@media screen and (max-width: 480px) {#Middle {bottom: 15%;}}
-	@media screen and (max-width: 1000px) {#Middle {bottom: 5%;}}
+	
+	@media screen and (max-height: 700px) {#Middle {bottom: 5%;}}	
 
 
 	#Middle .button {
@@ -1230,9 +1230,10 @@ input, select, textarea {
     position: relative;
     transition: all 0,5s ease-in-out;
     margin: 10% auto; 
+    min-height: 280px;
 }
-	@media screen and (max-width: 1300px) { #AboutMeBody { width: 70%; height: 60%} }
-	@media screen and (max-width: 1000px) { #AboutMeBody { width: 90%; height: 60%} }
+	@media screen and (max-width: 1400px) { #AboutMeBody { width: 70%; } }
+	@media screen and (max-width: 1000px) { #AboutMeBody { width: 90%; } }
 
 
 #Close{
@@ -1253,8 +1254,9 @@ input, select, textarea {
 }
 
 #AboutMeBody .AboutMePhoto {
-	background: #051124 url("images/YourPhoto.jpg") bottom left;
-	width: 140px;
+	background: transparent url("images/YourPhoto.jpg") bottom left no-repeat;
+	width: 20%;
+	min-width: 140px;
 	height: 150px;
 	float: left;
 	margin-right: 15px;
