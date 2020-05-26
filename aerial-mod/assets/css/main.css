@@ -1180,9 +1180,8 @@ input, select, textarea {
 		width: 100%;
 	}
 
-	@media screen and (max-width: 480px) {
-		#Middle {bottom: 15%;}
-	}
+	@media screen and (max-width: 480px) {#Middle {bottom: 15%;}}
+	@media screen and (max-width: 1000px) {#Middle {bottom: 5%;}}
 
 
 	#Middle .button {
@@ -1232,8 +1231,8 @@ input, select, textarea {
     transition: all 0,5s ease-in-out;
     margin: 10% auto; 
 }
-	@media screen and (max-width: 1300px) { #AboutMeBody { width: 70%; height: 30%} }
-	@media screen and (max-width: 1000px) { #AboutMeBody { width: 90%; height: 30%} }
+	@media screen and (max-width: 1300px) { #AboutMeBody { width: 70%; height: 60%} }
+	@media screen and (max-width: 1000px) { #AboutMeBody { width: 90%; height: 60%} }
 
 
 #Close{
