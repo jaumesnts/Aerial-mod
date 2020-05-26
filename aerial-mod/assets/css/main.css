@@ -1182,7 +1182,7 @@ input, select, textarea {
 
 	
 	@media screen and (max-height: 700px) {#Middle {bottom: 5%;}}	
-
+	@media screen and (max-height: 400px) {#Middle {bottom: 0px;}}	
 
 	#Middle .button {
     display: inline-block;
